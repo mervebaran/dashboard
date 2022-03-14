@@ -1,0 +1,185 @@
+ <ng-sidebar-container>
+    <ng-sidebar [opened] = "opened">
+        <p>Sidebar Content</p>
+        <button (click)="toggleSidebar()">Close Sidebar</button>
+       
+     <div class="sidebar">
+            <div class="logo_content">
+                <div class="logo">
+                    <div class="logo_name">XdDash</div>
+                </div>
+                <i (click)="toggleSidebar()" class="fa fa-bars" id="btn" aria-hidden="true" ></i>
+            </div>
+
+            <ul class="nav_list">
+                <li>
+                <a href="#">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" placeholder="Search..."  value="">
+                </a>
+                <span class="tooltip">Search</span>
+                </li>
+        
+                <li>
+                <a href="#">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+                </li>
+        
+                <li><a href="#">
+                    <i class="fa fa-folder" aria-hidden="true"></i>
+                    <span class="links_name">Files</span>
+                </a>
+                <span class="tooltip">Files</span>
+                </li>
+        
+                <li><a href="#">
+                    <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                    <span class="links_name">Charts</span>
+                </a>
+                <span class="tooltip">Charts</span>
+                </li>
+        
+                <li><a href="#">
+                    <i class="fa fa-filter" aria-hidden="true"></i>
+                    <span class="links_name">Filter</span>
+                </a>
+                <span class="tooltip">Filter</span>
+                </li>
+        
+                <li><a href="#">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                    <span class="links_name">Setting</span>
+                </a>
+                <span class="tooltip">Setting</span>
+                </li>
+            </ul>
+            <div class="profile_content">
+                <div class="profile">
+                    <div class="profile_details">
+                        <img src="https://i.pinimg.com/236x/10/dd/d3/10ddd331a35d2d80eb9bef3d399f9a5b.jpg" alt="">
+                        <div class="name_job">
+                            <div class="name">User</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </ng-sidebar>
+
+    <div ng-sidebar-content>
+        <!-- <i (click)="toggleSidebar()" class="fa fa-bars" id="btn" aria-hidden="true" ></i> -->
+        <div class="grid-container">
+       <div>           
+            <div class="tft">
+                <form action="">
+                    <input type="search"  placeholder="Search..." required>
+                </form>
+
+                <ul class="list">
+                    <li>Activity</li>
+                    <li>Notifications</li>
+                </ul>
+
+                <ul class="list2">
+                    <li>
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        <h3>Blush Noame</h3>
+                        <h5>13 Minutes Ago</h5>
+                    </li>
+                </ul>
+                <ul class="list2">
+                    <li>
+                        <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+                        <h3>Incme Calyt</h3>
+                        <h5>29 Minutes Ago</h5>
+                    </li>
+                </ul>
+                <ul class="list2">
+                    <li>
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        <h3>Dasn Nukyt</h3>
+                        <h5>44 Minutes Ago</h5>
+                    </li>
+                </ul>
+                <ul class="list2">
+                    <li>
+                        <img src="https://preview.redd.it/khyqca77pgm61.jpg?auto=webp&s=aa527abb0e63c62718be978224806f6d38f44662" alt="">
+                        <h3>Hype Cinema</h3>
+                        <h5>3 Hours Ago</h5>
+                    </li>
+                </ul>
+                <ul class="list2">
+                    <li>
+                        <img src="https://media.istockphoto.com/photos/beautiful-young-woman-with-curly-hair-picture-id1148068448?s=612x612" alt="">
+                        <h3>Mary Dyson</h3>
+                        <h5>3 Hours Ago</h5>
+                    </li>
+                </ul>
+                <ul class="list2">
+                    <li>
+                        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+                        <h3>Project GP</h3>
+                        <h5>12 Hours Ago</h5>
+                    </li>
+                </ul>
+            </div>  
+       </div>
+        </div>
+    </div>
+</ng-sidebar-container> 
+
+
+<div class="side">
+    
+  <div class="logo_content">
+      <div class="logo">
+      
+      </div>
+      <i (click)="toggleSidebar()" class="fa fa-bars fa-2x" id="btn" aria-hidden="true" ></i>
+  </div>
+
+  <ul class="nav_list">
+
+      <li>
+      <a href="#">
+          <i class="fa fa-home fa-3x tft" aria-hidden="true"></i>
+      </a>
+      </li>
+
+      <li><a href="#">
+          <i class="fa fa-folder fa-3x" aria-hidden="true"></i>  
+      </a>
+      </li>
+
+      <li><a href="#">
+          <i class="fa fa-pie-chart fa-3x" aria-hidden="true"></i>
+      </a>
+   
+      </li>
+
+      <li><a href="#">
+          <i class="fa fa-filter fa-3x" aria-hidden="true"></i>    
+      </a>
+      </li>
+
+      <li>
+       <a href="#">
+          <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
+      </a>
+      </li>
+  </ul>
+
+  <div class="profile_content">
+      <div class="profile">
+          <div class="profile_details">
+              <img src="https://i.pinimg.com/236x/10/dd/d3/10ddd331a35d2d80eb9bef3d399f9a5b.jpg" alt="">
+              <div class="name_job">
+              </div>
+          </div>
+      </div>
+  </div>
+</div> 

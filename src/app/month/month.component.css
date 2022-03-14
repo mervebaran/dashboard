@@ -1,0 +1,146 @@
+.month {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #FF1493;
+    color:white;
+    border-radius: 10px;
+    height:11.2rem;
+    /* width:24.5rem; */
+    margin-bottom: 1rem;
+}
+.month h1 {
+    text-align: left;
+    padding-left: 1rem;
+}
+.month p {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.month i {
+    margin-right: 26rem;
+}
+
+#divChart{
+    display: block;
+    width: 300px;
+    height: 350px;
+    margin-top: -5rem;
+    margin-left:4rem;
+}
+
+
+@media (max-width: 475.98px) {
+    .month {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: #FF1493;
+        color:white;
+        border-radius: 10px;
+        height:11.2rem;
+        /* width:24.5rem; */
+        width:397px;
+        margin-bottom: 1rem;
+    }
+    .month i {
+        margin-right: 22rem;
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .month {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: #FF1493;
+        color:white;
+        border-radius: 10px;
+        height:11.2rem;
+        /* width:24.5rem; */
+        width:604px;
+        margin-bottom: 1rem;
+    }
+    .month i {
+        margin-right: 35rem;
+    }
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .month i {
+        margin-right: 50rem;
+    }
+ }
+
+
+@media (min-width: 992px) and (max-width: 1024px) { 
+
+    .month h1 {
+        text-align: left;
+        padding-left: 16rem;
+        padding-top: 1rem;
+    }
+    .month p {
+        text-align: left;
+        padding-left: 16rem;
+    }
+    
+    .month i {
+        margin-right: 29rem;
+    }
+
+    #divChart{
+        display: block;
+        width: 300px;
+        height: 350px;
+        margin-top: -7rem;
+        margin-left:28rem;
+    }
+ }
+
+ @media (min-width: 1024px) and (max-width: 1550px){
+  .month h1 {
+        text-align: left;
+        padding-left: 16rem;
+        padding-top: 1rem;
+    }
+    .month p {
+        text-align: left;
+        padding-left: 16rem;
+    }
+    
+    .month i {
+        margin-right: 30rem;
+    }
+
+    #divChart{
+        display: block;
+        width: 300px;
+        height: 350px;
+        margin-top: -7rem;
+        margin-left:28rem;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+
+    /* .month h1 {
+        text-align: left;
+        padding-left: 22rem;
+        padding-top: 1rem;
+    }
+    .month p {
+        text-align: left;
+        padding-left: 22rem;
+    }
+    
+    .month i {
+        margin-right: 39rem;
+    }
+
+    #divChart{
+        display: block;
+        width: 300px;
+        height: 350px;
+        margin-top: -7rem;
+        margin-left:28rem;
+    } */
+ }

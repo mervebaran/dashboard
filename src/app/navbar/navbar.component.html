@@ -1,0 +1,62 @@
+<nav class="navbar">
+    <div class="brand-title"> Xd Dash</div>
+    <div>
+        <div class="menu">
+
+          <button mat-icon-button color="blue" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon button with a menu icon">
+            <mat-icon>menu</mat-icon>
+          </button>
+
+            <!-- <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                <mat-icon>more_vert</mat-icon>
+             </button> -->
+        </div>
+      <div class="openmenu">
+        <mat-menu #menu="matMenu">
+          <button style=" margin-right: 11rem;" mat-menu-item>
+            <mat-icon>home</mat-icon>
+            <span>Home</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon>file_copy</mat-icon>
+            <span>File</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon> pie_chart</mat-icon>
+            <span>Charts</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon>filter_tilt_shift</mat-icon>
+            <span>Filter</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon>settings</mat-icon>
+            <span>Setting</span>
+          </button>
+        </mat-menu>
+      </div>
+         
+  <!-- <button mat-button [matMenuTriggerFor]="fileMenu">File</button>
+  <mat-menu #fileMenu="matMenu">
+    <button mat-menu-item>Hello</button>
+  </mat-menu> -->
+
+
+    </div>
+    <div class="navbar-links">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Files</a></li>
+            <li><a href="">Charts</a></li>
+            <li><a href="">Filter</a></li>
+            <li><a href="">Setting</a></li>
+        </ul>
+    </div>
+    </nav>
+    
+<!-- 
+    <div class="example-button-container">
+        <button mat-mini-fab color="blue" aria-label="Example icon button with a menu icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+    </div> -->

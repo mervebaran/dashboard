@@ -1,0 +1,107 @@
+.analytics{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+    border-radius: 10px;
+    height:15rem;
+    /* width:28rem; */
+    margin-bottom: 20px;
+}
+/* .analytics h2 {
+
+} */
+
+#divChart{
+    display: block;
+    width: 310px;
+    height: 350px;
+    margin-left: 2rem;
+}
+
+
+@media (max-width: 475.98px) {
+    .analytics{
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+        border-radius: 10px;
+        height:15rem;
+        /* width:28rem; */
+        margin-bottom: 20px;
+        width: 391px;
+    }
+
+    #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 2rem;
+    }
+    .analytics h2 {
+        margin-right: 46rem;
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .analytics{
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+        border-radius: 10px;
+        height:15rem;
+        /* width:28rem; */
+        margin-bottom: 20px;
+        width: 604px;
+    }
+    #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 2rem;
+    }
+    .analytics h2 {
+        margin-right: 46rem;
+    }
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 2rem;
+    }
+    .analytics h2 {
+        margin-right: 40rem;
+    }
+ }
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 19rem;
+    }
+    .analytics h2 {
+        margin-right: 23rem;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1550px){
+   #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 26rem;
+    }
+  }
+@media (min-width: 1200px) { 
+    /* #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 26rem;
+    } */
+ }

@@ -1,0 +1,122 @@
+.card-balance{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+    border-radius: 10px;
+    height:16rem;
+    /* width:24rem; */
+    margin-bottom: 5px;
+} 
+
+.card-balance h2 {
+    margin-right: 19rem
+}
+.card-balance p {
+    margin-right: 20rem
+}
+
+#divChart{
+    display: block;
+    width: 310px;
+    height: 350px;
+    margin-left: 2rem;
+}
+
+
+@media (max-width: 475.98px) { 
+    .card-balance{
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+        border-radius: 10px;
+        height:16rem;
+        /* width:24rem; */
+        margin-bottom: 5px;
+        width: 391px;
+    } 
+    #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 2rem;
+    }
+    .card-balance p {
+        margin-right: 18rem;
+    }
+    /* .card-balance h2 {
+        margin-right: 46rem;
+    }
+    .card-balance p {
+        margin-right: 45rem;
+    } */
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .card-balance{
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+        border-radius: 10px;
+        height:16rem;
+        /* width:24rem; */
+        margin-bottom: 5px;
+        width: 604px;
+    }
+    #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 2rem;
+    }
+    /* .card-balance h2 {
+        margin-right: 46rem;
+    }
+    .card-balance p {
+        margin-right: 45rem;
+    } */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 2rem;
+    }
+    .card-balance h2 {
+        margin-right: 22rem
+    }
+    .card-balance p {
+        margin-right: 20rem
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1024px) { 
+    #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 19rem;
+    }
+    .card-balance h2 {
+        margin-right: 23rem
+    }
+    .card-balance p {
+        margin-right: 22rem
+    }
+ }
+ @media (min-width: 1024px) and (max-width: 1550px){
+   #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 26rem;
+    }
+}
+@media (min-width: 1200px) { 
+    /* #divChart{
+        display: block;
+        width: 310px;
+        height: 350px;
+        margin-left: 26rem;
+    } */
+
+ }

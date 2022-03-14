@@ -1,0 +1,123 @@
+.row1 {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+    border-radius: 10px;
+    /* height:6rem; */
+    /* width:28rem; */
+    margin-bottom: 10px;
+}
+
+.row1 h2 {
+    margin-left: -23rem;
+}
+
+.row1 p {
+    margin-left: -18rem;
+}
+
+.row1 i {
+    margin-left: 13rem;
+}
+
+@media (max-width: 475.98px) {
+
+    .row1 {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+        border-radius: 10px;
+        /* height:6rem; */
+        /* width:28rem; */
+        margin-bottom: 10px;
+        width: 391px;
+        
+    }
+
+    .row1 i {
+        margin-left: 22rem;
+    }
+
+    .row1 h2 {
+        margin-left: -20rem;
+    }
+    .row1 p {
+        margin-left: -16rem;
+    }
+    /* .row1 h2 {
+        margin-left: -46rem;
+    }
+    .row1 p {
+        margin-left: -41.5rem;
+    }
+    .row1 i {
+        margin-left: -48rem;
+    } */
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .row1 {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: white;
+        border-radius: 10px;
+        /* height:6rem; */
+        /* width:28rem; */
+        margin-bottom: 10px;
+        width: 604px;
+    }
+    /* .row1 h2 {
+        margin-left: -46rem;
+    }
+    .row1 p {
+        margin-left: -41.5rem;
+    }
+    .row1 i {
+        margin-left: -48rem;
+    } */
+    .row1 i {
+        margin-left: 34rem;
+    }
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .row1 h2 {
+        margin-left: -23rem;
+    }
+
+    .row1 p {
+        margin-left: -22rem;
+    }
+    .row1 i {
+        margin-left: -29rem;
+    }
+ }
+
+
+@media (min-width: 992px) and (max-width: 1024px) { 
+    .row1 h2 {
+        margin-left: -26rem;
+    }
+    
+    .row1 p {
+        margin-left: -22rem;
+    }
+    .row1 i {
+        margin-left: -29rem;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    /* .row1 i {
+        margin-left: -29rem;
+    }
+    .row1 h2 {
+        margin-left: -26rem;
+    }
+    
+    .row1 p {
+        margin-left: -22rem;
+    } */
+    
+ }
